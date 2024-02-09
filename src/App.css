@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #252839;
+}
+
+ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+ul li {
+    position: relative;
+    list-style: none;
+}
+
+.Belief{
+    font-size: 4em;
+    text-decoration: none;
+    letter-spacing: 2px;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+}
+
+.Belief:hover{
+    color: yellow;
+    text-shadow:
+        0 0 7px yellow,
+        0 0 10px yellow,
+        0 0 21px yellow,
+        0 0 42px yellow,
+        0 0 82px yellow,
+        0 0 92px yellow,
+        0 0 102px yellow,
+        0 0 151px yellow;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.Build{
+    font-size: 4em;
+    text-decoration: none;
+    letter-spacing: 2px;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+}
+
+.Build:hover{
+    color: #21aeea;
+    text-shadow:
+        0 0 7px #21aeea,
+        0 0 10px #21aeea,
+        0 0 21px #21aeea,
+        0 0 42px #21aeea,
+        0 0 82px #21aeea,
+        0 0 92px #21aeea,
+        0 0 102px #21aeea,
+        0 0 151px #21aeea;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.Try{
+    font-size: 4em;
+    text-decoration: none;
+    letter-spacing: 2px;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+}
+
+.Try:hover{
+    color: #ff6492;
+    text-shadow:
+        0 0 7px #ff6492,
+        0 0 10px #ff6492,
+        0 0 21px #ff6492,
+        0 0 42px #ff6492,
+        0 0 82px #ff6492,
+        0 0 92px #ff6492,
+        0 0 102px #ff6492,
+        0 0 151px #ff6492;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.Ideas{
+    font-size: 4em;
+    text-decoration: none;
+    letter-spacing: 2px;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+}
+
+.Ideas:hover{
+    color: #00dc82;
+    text-shadow:
+        0 0 7px #00dc82,
+        0 0 10px #00dc82,
+        0 0 21px #00dc82,
+        0 0 42px #00dc82,
+        0 0 82px #00dc82,
+        0 0 92px #00dc82,
+        0 0 102px #00dc82,
+        0 0 151px #00dc82;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.Successs{
+    font-size: 4em;
+    text-decoration: none;
+    letter-spacing: 2px;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+}
+
+.Successs:hover{
+    color: #dc00d4;
+    text-shadow:
+        0 0 7px #dc00d4,
+        0 0 10px #dc00d4,
+        0 0 21px #dc00d4,
+        0 0 42px #dc00d4,
+        0 0 82px #dc00d4,
+        0 0 92px #dc00d4,
+        0 0 102px #dc00d4,
+        0 0 151px #dc00d4;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.a {
+    position: absolute;
+    bottom: 20px;
+    left: -47px;
+    font-size: 4em;
+    text-decoration: none;
+    letter-spacing: 2px;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+}
+
+.a:hover {
+    color: red;
+    text-shadow:
+        0 0 7px red,
+        0 0 10px red,
+        0 0 21px red,
+        0 0 42px red,
+        0 0 82px red,
+        0 0 92px red,
+        0 0 102px red,
+        0 0 151px red;
+    width: 100%;
+    transition: all 0.3s ease;
+}
